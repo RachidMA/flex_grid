@@ -1,0 +1,165 @@
+
+/*--------------  BODY---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+
+}
+/*--------------  HEADER---------------- */
+header {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: red;
+    width: 15%;
+    height: 800px;
+    padding: 10px;
+}
+/*--------------  MAIN---------------- */
+main {
+    background-color: lightblue;
+    width: 70%;
+    height: 800px;
+    padding: 10px;
+}
+/*--------------  ASIDE---------------- */
+aside {
+    background-color: red;
+    width: 15%;
+    height: 800px;
+    padding: 10px;
+}
+/*--------------  FOOTER ---------------- */
+footer {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+
+/*--------------- MEDIA QUERY --------------*/
+@media  only screen and (max-width: 479px) {
+    body{
+        flex-direction: column;
+    }
+   .nav-bar {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   header{
+    
+    display: flex;
+    flex-direction: column;
+   }
+
+header , nav, main, aside, footer {
+    width: 100%;
+    height: 100%;
+}
+nav {
+height: 70px;
+}
+aside {
+height: 200px;
+}
+.footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/*header styling*/
+.nav-bar {
+    
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+.link-list {
+    width: 200px;
+    
+
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+
+ul {
+  
+   
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    
+}
+li {
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: wrap;
+    background-color: yellow;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    background-color: red;
+    
+}
+li a {
+    text-align: center;
+}

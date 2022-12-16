@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.flex-page , .grid-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    border: 5 solid black;
+    border-radius: 10px;
+   
+    
+}
